@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# REF: https://nodejs.org/api/cli.html#node_extra_ca_certsfile
+BITWARDEN_CA_CERT_PATH=/etc/ssl/certs/bitwarden.hole.crt
+export NODE_EXTRA_CA_CERTS=$BITWARDEN_CA_CERT_PATH
+
+./bw-cli-install/node_modules/@bitwarden/cli/build/bw.js "$@"

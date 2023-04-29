@@ -1,0 +1,14 @@
+[Unit]
+Description=Bitwarden container
+Requires=docker.service
+After=docker.service
+
+[Service]
+Restart=always
+User=bitwarden
+Group=bitwarden
+ExecStart=/opt/bitwarden/launch-bitwarden.sh
+ExecStop=/opt/bitwarden/stop-bitwarden.sh
+
+[Install]
+WantedBy=default.target
