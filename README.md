@@ -15,7 +15,7 @@ plumbing and service automation for bringup.
 - Nginx
 - Tested on:
     - HW Platform: Raspberry Pi 4
-    - OS: Raspbian Buster
+    - OS: Raspbian Buster, Bullseye
 
 ## Notes ##
 - [LastPass to Vaultwarden Migration notes](https://docs.google.com/document/d/1jdxIiUow6RG1e10rZ6oA7BcmeGPt-33d20ymwg2lVLE/edit?usp=sharing)
